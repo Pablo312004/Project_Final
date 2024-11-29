@@ -1,0 +1,104 @@
+[
+  {
+    "Id": 1,
+    "UsuarioId": 9,
+    "Sementes": [
+      {
+        "Id": 1,
+        "Nome": null,
+        "Categoria": null,
+        "Quantidade": 0,
+        "Preco": 0.0,
+        "Fornecedor": null,
+        "DataValidade": "0001-01-01T00:00:00",
+        "Excluida": false
+      }
+    ],
+    "Aprovado": false,
+    "Negado": false
+  },
+  {
+    "Id": 2,
+    "UsuarioId": 12,
+    "Sementes": [
+      {
+        "Id": 10,
+        "Nome": null,
+        "Categoria": null,
+        "Quantidade": 0,
+        "Preco": 0.0,
+        "Fornecedor": null,
+        "DataValidade": "0001-01-01T00:00:00",
+        "Excluida": false
+      },
+      {
+        "Id": 20,
+        "Nome": null,
+        "Categoria": null,
+        "Quantidade": 0,
+        "Preco": 0.0,
+        "Fornecedor": null,
+        "DataValidade": "0001-01-01T00:00:00",
+        "Excluida": false
+      },
+      {
+        "Id": 30,
+        "Nome": null,
+        "Categoria": null,
+        "Quantidade": 0,
+        "Preco": 0.0,
+        "Fornecedor": null,
+        "DataValidade": "0001-01-01T00:00:00",
+        "Excluida": false
+      }
+    ],
+    "Aprovado": true,
+    "Negado": false
+  },
+  {
+    "Id": 3,
+    "UsuarioId": 15,
+    "Sementes": [
+      {
+        "Id": 10,
+        "Nome": null,
+        "Categoria": null,
+        "Quantidade": 0,
+        "Preco": 0.0,
+        "Fornecedor": null,
+        "DataValidade": "0001-01-01T00:00:00",
+        "Excluida": false
+      }
+    ],
+    "Aprovado": false,
+    "Negado": false
+  },
+  {
+    "Id": 4,
+    "UsuarioId": 16,
+    "Sementes": [
+      {
+        "Id": 5,
+        "Nome": null,
+        "Categoria": null,
+        "Quantidade": 0,
+        "Preco": 0.0,
+        "Fornecedor": null,
+        "DataValidade": "0001-01-01T00:00:00",
+        "Excluida": false
+      },
+      {
+        "Id": 6,
+        "Nome": null,
+        "Categoria": null,
+        "Quantidade": 0,
+        "Preco": 0.0,
+        "Fornecedor": null,
+        "DataValidade": "0001-01-01T00:00:00",
+        "Excluida": false
+      }
+    ],
+    "Aprovado": false,
+    "Negado": true
+  }
+]

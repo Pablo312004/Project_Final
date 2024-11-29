@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "Nome": "admin1",
+    "Senha": "admin123",
+    "EhAdmin": true
+  },
+  {
+    "Id": 2,
+    "Nome": "admin2",
+    "Senha": "admin456",
+    "EhAdmin": true
+  },
+  {
+    "Id": 3,
+    "Nome": "admin3",
+    "Senha": "admin789",
+    "EhAdmin": true
+  }
+]

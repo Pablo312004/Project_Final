@@ -1,0 +1,142 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Semente de Milho",
+    "Categoria": "Cereal",
+    "Quantidade": 100,
+    "Preco": 10.50,
+    "Fornecedor": "Fornecedor A",
+    "DataValidade": "2025-11-27T20:38:56.7358306-03:00",
+    "Excluida": false
+  },
+  {
+    "Id": 2,
+    "Nome": "Semente de Soja",
+    "Categoria": "Leguminosa",
+    "Quantidade": 200,
+    "Preco": 12.75,
+    "Fornecedor": "Fornecedor B",
+    "DataValidade": "2025-11-27T20:38:56.7445197-03:00",
+    "Excluida": true
+  },
+  {
+    "Id": 3,
+    "Nome": "Semente de Trigo",
+    "Categoria": "Cereal",
+    "Quantidade": 150,
+    "Preco": 11.30,
+    "Fornecedor": "Fornecedor C",
+    "DataValidade": "2025-11-27T20:38:56.7445274-03:00",
+    "Excluida": false
+  },
+  {
+    "Id": 4,
+    "Nome": "Semente de Girassol",
+    "Categoria": "Oleaginosa",
+    "Quantidade": 300,
+    "Preco": 9.00,
+    "Fornecedor": "Fornecedor D",
+    "DataValidade": "2025-11-27T20:38:56.7445279-03:00",
+    "Excluida": false
+  },
+  {
+    "Id": 5,
+    "Nome": "Semente de Algodão",
+    "Categoria": "Fibra",
+    "Quantidade": 120,
+    "Preco": 13.50,
+    "Fornecedor": "Fornecedor E",
+    "DataValidade": "2025-11-27T20:38:56.7445283-03:00",
+    "Excluida": false
+  },
+  {
+    "Id": 6,
+    "Nome": "Semente de Amendoim",
+    "Categoria": "Oleaginosa",
+    "Quantidade": 250,
+    "Preco": 14.75,
+    "Fornecedor": "Fornecedor F",
+    "DataValidade": "2025-11-27T20:38:56.7445308-03:00",
+    "Excluida": false
+  },
+  {
+    "Id": 7,
+    "Nome": "Semente de Feijão",
+    "Categoria": "Leguminosa",
+    "Quantidade": 100,
+    "Preco": 8.20,
+    "Fornecedor": "Fornecedor G",
+    "DataValidade": "2025-11-27T20:38:56.7445312-03:00",
+    "Excluida": false
+  },
+  {
+    "Id": 8,
+    "Nome": "Semente de Cevada",
+    "Categoria": "Cereal",
+    "Quantidade": 180,
+    "Preco": 10.00,
+    "Fornecedor": "Fornecedor H",
+    "DataValidade": "2025-11-27T20:38:56.7445315-03:00",
+    "Excluida": false
+  },
+  {
+    "Id": 9,
+    "Nome": "Semente de Canola",
+    "Categoria": "Oleaginosa",
+    "Quantidade": 220,
+    "Preco": 12.00,
+    "Fornecedor": "Fornecedor I",
+    "DataValidade": "2025-11-27T20:38:56.7445319-03:00",
+    "Excluida": false
+  },
+  {
+    "Id": 10,
+    "Nome": "Semente de Trigo Sarraceno",
+    "Categoria": "Pseudocereal",
+    "Quantidade": 140,
+    "Preco": 11.50,
+    "Fornecedor": "Fornecedor J",
+    "DataValidade": "2025-11-27T20:38:56.7445328-03:00",
+    "Excluida": false
+  },
+  {
+    "Id": 11,
+    "Nome": "Soja",
+    "Categoria": "Pulverizada",
+    "Quantidade": 12,
+    "Preco": 123.0,
+    "Fornecedor": "Pablo",
+    "DataValidade": "2024-12-12T00:00:00",
+    "Excluida": false
+  },
+  {
+    "Id": 12,
+    "Nome": "Soja",
+    "Categoria": "pulverizada",
+    "Quantidade": 123,
+    "Preco": 150.0,
+    "Fornecedor": "Pablo",
+    "DataValidade": "2027-12-01T00:00:00",
+    "Excluida": false
+  },
+  {
+    "Id": 13,
+    "Nome": "Soja",
+    "Categoria": "Lavouris",
+    "Quantidade": 990,
+    "Preco": 520.0,
+    "Fornecedor": "3",
+    "DataValidade": "2028-02-02T00:00:00",
+    "Excluida": false
+  },
+  {
+    "Id": 14,
+    "Nome": "Sojinha",
+    "Categoria": "leguminosa",
+    "Quantidade": 1000,
+    "Preco": 900.0,
+    "Fornecedor": "Romes Heriberto",
+    "DataValidade": "2026-10-15T00:00:00",
+    "Excluida": false
+  }
+]

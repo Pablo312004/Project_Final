@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|c:\\users\\globo\\onedrive\\desktop\\off\\controleestoquesementes\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|c:\\users\\globo\\onedrive\\desktop\\off\\controleestoquesementes\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|c:\\users\\globo\\onedrive\\desktop\\off\\controleestoquesementes\\controllers\\pedidocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|solutionrelative:controllers\\pedidocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|c:\\users\\globo\\onedrive\\desktop\\off\\controleestoquesementes\\controllers\\sementecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|solutionrelative:controllers\\sementecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|c:\\users\\globo\\onedrive\\desktop\\off\\controleestoquesementes\\services\\sementeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|solutionrelative:services\\sementeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|c:\\users\\globo\\onedrive\\desktop\\off\\controleestoquesementes\\data\\jsonstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507E04D-85AC-41E9-B5C8-C04DF8247451}|ControleEstoqueSementes.csproj|solutionrelative:data\\jsonstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JsonStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Data\\JsonStorageService.cs",
+              "RelativeDocumentMoniker": "Data\\JsonStorageService.cs",
+              "ToolTip": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Data\\JsonStorageService.cs",
+              "RelativeToolTip": "Data\\JsonStorageService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:15:41.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SementeController.cs",
+              "DocumentMoniker": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Controllers\\SementeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SementeController.cs",
+              "ToolTip": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Controllers\\SementeController.cs",
+              "RelativeToolTip": "Controllers\\SementeController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAwwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:12:22.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidoCompraController.cs",
+              "DocumentMoniker": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Controllers\\PedidoCompraController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PedidoCompraController.cs",
+              "ToolTip": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Controllers\\PedidoCompraController.cs",
+              "RelativeToolTip": "Controllers\\PedidoCompraController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:15:30.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "Services\\UsuarioService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:06:48.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SementeService.cs",
+              "DocumentMoniker": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Services\\SementeService.cs",
+              "RelativeDocumentMoniker": "Services\\SementeService.cs",
+              "ToolTip": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Services\\SementeService.cs",
+              "RelativeToolTip": "Services\\SementeService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:06:06.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\globo\\OneDrive\\Desktop\\OFF\\ControleEstoqueSementes\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAFoBAAAAAAAAAAA3wHEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:02:28.403Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
