@@ -1,6 +1,5 @@
-# Project_Final
 
-Projeto de Controle de Estoque de Sementes
+# Controle de Estoque de Sementes
 
 ## Sumário
 - [Introdução](#introdução)
@@ -12,9 +11,10 @@ Projeto de Controle de Estoque de Sementes
 - [Heurística de Nielsen](#heurística-de-nielsen)
 - [Contribuições](#contribuições)
 - [Licença](#licença)
+- [Conclusão](#conclusão)
 
 ## Introdução
-Este projeto tem como objetivo criar uma aplicação de console para controle de estoque de sementes. A aplicação permite aos usuários e administradores gerenciar o estoque, incluindo funções CRUD (Create, Read, Update, Delete) e pedidos de compra. O projeto é desenvolvido em C# e utiliza o banco de dados PostgreSQL.
+Este projeto tem como objetivo criar uma aplicação de console para controle de estoque de sementes. A aplicação permite aos usuários e administradores gerenciar o estoque, incluindo funções CRUD (Create, Read, Update, Delete) e pedidos de compra. O projeto é desenvolvido em C# e utiliza arquivos JSON para armazenamento de dados.
 
 ## Requisitos Funcionais
 ### Cadastro de Sementes
@@ -27,18 +27,18 @@ Este projeto tem como objetivo criar uma aplicação de console para controle de
 - Usuários podem editar os dados de uma semente existente.
 
 ### Exclusão de Sementes
-- Usuários podem excluir sementes do estoque, com uma confirmação e opção de reversão em até 20 dias.
+- Usuários podem excluir sementes do estoque, com uma confirmação e a possibilidade de restauração.
 
 ### Pedido de Compra
 - Usuários podem fazer pedidos de compra.
-- Admins podem visualizar, aceitar ou negar pedidos de compra.
+- Admins podem visualizar, aprovar ou negar pedidos de compra.
 
 ### Validação de Dados
 - O sistema realiza validação dos dados durante o cadastro e edição das sementes.
 
 ## Arquitetura e Tecnologias
 - **Linguagem de Programação:** C#
-- **Banco de Dados:** PostgreSQL
+- **Armazenamento de Dados:** Arquivos JSON
 - **IDE:** Visual Studio Code (VSCode)
 - **Controle de Acesso:** Implementação de autenticação e controle de permissões
 
@@ -47,27 +47,24 @@ Este projeto tem como objetivo criar uma aplicação de console para controle de
 ControleEstoqueSementes/
 ├── Program.cs
 ├── Models/
-│   └── Semente.cs
-│   └── Usuario.cs
+│   ├── Semente.cs
+│   ├── Usuario.cs
 │   └── PedidoCompra.cs
 ├── Services/
-│   └── SementeService.cs
-│   └── UsuarioService.cs
+│   ├── SementeService.cs
+│   ├── UsuarioService.cs
 │   └── PedidoCompraService.cs
 ├── Controllers/
-│   └── SementeController.cs
-│   └── UsuarioController.cs
+│   ├── SementeController.cs
+│   ├── UsuarioController.cs
 │   └── PedidoCompraController.cs
-└── Repositories/
-    └── SementeRepository.cs
-    └── UsuarioRepository.cs
-    └── PedidoCompraRepository.cs
+└── Data/
+    └── JsonStorageService.cs
 ```
 
 ## Instalação e Execução
 ### Pré-requisitos
 - .NET SDK 5.0 ou superior
-- PostgreSQL
 
 ### Passos para Instalação
 1. Clone o repositório:
@@ -101,33 +98,36 @@ ControleEstoqueSementes/
 - Após a autenticação, serão exibidos menus diferentes dependendo se o usuário é admin ou um usuário normal.
 
 #### Menu do Usuário Normal
-- Adicionar Semente
-- Listar Sementes
-- Excluir Semente
-- Fazer Pedido de Compra
+- **Adicionar Semente:** Permite ao usuário cadastrar uma nova semente.
+- **Listar Sementes:** Exibe todas as sementes disponíveis no inventário.
+- **Excluir Semente:** Permite excluir uma semente do inventário.
+- **Fazer Pedido de Compra:** Permite ao usuário realizar um pedido de compra de sementes.
 
 #### Menu do Admin
-- Adicionar Semente
-- Listar Sementes
-- Editar Semente
-- Excluir Semente
-- Fazer Pedido de Compra
-- Fazer Pedido de Venda
-- Visualizar Pedidos de Compra (aceitar ou negar)
+- **Adicionar Semente:** Permite ao administrador cadastrar uma nova semente.
+- **Listar Sementes:** Exibe todas as sementes disponíveis no inventário.
+- **Editar Semente:** Permite editar as informações de uma semente existente.
+- **Excluir Semente:** Permite excluir uma semente do inventário.
+- **Fazer Pedido de Compra:** Permite ao administrador realizar um pedido de compra de sementes.
+- **Visualizar Pedidos de Compra:** Exibe todos os pedidos de compra e permite aprovar ou negar os pedidos.
 
 ## Heurística de Nielsen
 - **Controle e Liberdade para o Usuário:**
-  - Confirmação antes de excluir sementes e reversão de exclusão por até 20 dias.
+  - Confirmação antes de excluir sementes e possibilidade de restauração.
   - Mensagens claras de confirmação ao realizar operações críticas.
-
+- **Consistência e Padrões:**
+  - Interface de usuário consistente com menus claros e opções bem definidas.
+- **Prevenção de Erros:**
+  - Validação de dados durante o cadastro e edição das sementes para prevenir entradas inválidas.
+- **Flexibilidade e Eficiência de Uso:**
+  - Funções de gerenciamento acessíveis tanto para usuários comuns quanto para administradores.
+  
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
 
 ## Licença
-Este projeto está licenciado e com direitos autoriais. 
+Este projeto está licenciado sob os termos da licença XYZ.
 
+## Conclusão
+Este projeto foi desenvolvido com o intuito de demonstrar o uso de C# e arquivos JSON para criar uma aplicação de gerenciamento de estoque simples, mas robusta. Ele fornece uma interface amigável para o usuário realizar operações CRUD e é uma ótima base para futuras melhorias, como a adição de novas funcionalidades ou a integração com outros sistemas.
 
-
-
-Conclusão:
-Este projeto foi desenvolvido com o intuito de demonstrar o uso de ASP.NET Core MVC, C# e PostgreSQL para criar uma aplicação de gerenciamento de estoque simples, mas robusta. Ele fornece uma interface amigável para o usuário realizar operações CRUD e é uma ótima base para futuras melhorias, como a adição de autenticação de usuários ou a criação de relatórios gerenciais.
